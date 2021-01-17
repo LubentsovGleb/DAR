@@ -1,0 +1,71 @@
+@media (max-width: 1210px){
+    .section-header-why__price{
+        font-size: 70px;
+    }
+    .section-header-menu__links{
+        li {
+            margin-right: 10px;
+        }
+    }
+    .section-header-menu__logo{
+        margin-right: auto;
+    }
+    .section-advantages__cards,
+    .section-why-steps__cards{
+        max-width: 800px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .section-advantages__cards-card,
+    .section-why-steps__cards-card{
+        margin: 0;
+        margin: 10px;
+    }
+
+    .section-advantages__title,
+    .section-why-steps__subtitle,
+    .section-why-steps__title,
+    .section-advantages__subtitle{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    .section-advantages__title,
+    .section-why-steps__subtitle,
+    .section-why-steps__title{
+        margin-bottom: 40px;
+    }
+    .section-advantages__subtitle{
+        margin-top: 30px;
+    }
+    .section-what-to-do{
+        background-image: none;
+    }
+    .section-what-to-do-container__left{
+        display: none;
+    }
+    .section-what-to-do-container__main-info{
+        width: auto;
+        margin: 0 auto;
+    }
+    .section-what-to-do-bubble-1{
+        margin-left: -200px;
+    }
+    .section-why-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-why-form__info{
+        margin-bottom: 60px;
+    }
+    .section-why-bubble-1{
+        width: 30%;
+    }
+    // .section-what-to-do-container__main-info-subtitle,
+    // .section-what-to-do-container__main-info-btn{
+    //     text-align: center;
+    // }
+}
